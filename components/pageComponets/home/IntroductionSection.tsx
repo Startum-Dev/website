@@ -10,7 +10,13 @@ const IntroductionSection = () => {
                 <h1 className="text-black text-6xl font-bold">Chaines Lloyd</h1>
             </div>
             <div className="">
-               
+                <p className="text-2xl text-black">
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod tempor incididun
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod tempor incididun
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod tempor incididun
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod tempor incididun
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod tempor incididun
+                </p>
             </div>
         </div>
     )
