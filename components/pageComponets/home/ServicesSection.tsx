@@ -15,7 +15,7 @@ const ServicesSection = () => {
         <ServicesCard />
         <ServicesCard />
       </div>
-      <div className="grid grid-cols-4 md:flex md:flex-row items-center justify-cencter gap-1 md:gap-4">
+      <div className="grid grid-cols-4 md:flex md:flex-row md:items-center md:justify-cencter gap-1 md:gap-4">
         <ServicesCard />
         <ServicesCard />
         <ServicesCard />
