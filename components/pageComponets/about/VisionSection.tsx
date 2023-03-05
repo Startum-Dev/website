@@ -15,8 +15,8 @@ const VisionSection = () => {
           Mission Statement
         </h1>
         <p className="text-xl md:text-2xl text-black">
-          Driven by the essence of clientele and stakeholders' satisfaction in
-          the society and industries we venture in. Deep affinity poesy for
+          Driven by the essence of clientele and stakeholders&apos; satisfaction
+          in the society and industries we venture in. Deep affinity poesy for
           authenticity is our art, as quality is rare in a world of mimicry.
         </p>
       </div>

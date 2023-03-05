@@ -68,7 +68,7 @@ const Footer = () => {
       <hr className="my-12 bg-white" />
       <div className="w-full items-center justify-center flex fles-row">
         <text className="text-white text-xs">
-          Copyright © 2023 "Chaînes Lloyd All rights reserved.
+          Copyright © 2023 Chaînes Lloyd All rights reserved.
         </text>
       </div>
     </div>
