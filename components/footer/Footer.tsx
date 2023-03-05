@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <div className="w-screen bg-black md:px-64 flex flex-col py-24 px-8">
       <div className="flex flex-col md:grid md:grid-cols-3 gap-4">
         <div>
-          <img src="images/logo.png" />
+          <Image src="images/logo.png" alt="img" />
         </div>
         <div className="flex flex-col gap-4">
           <h2 className="text-white text-xl md:text-2xl">Quick Links</h2>

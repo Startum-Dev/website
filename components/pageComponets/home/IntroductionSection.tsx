@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const IntroductionSection = () => {
   return (
@@ -27,7 +28,7 @@ const IntroductionSection = () => {
         </p>
       </div>
       <div className="md:col-span-2 items-center justify-center flex flex-col w-full mt-12">
-        <img src="images/intro.png" className="w-full" />
+        <Image src="images/intro.png" className="w-full" alt="img" />
         <div className="flex flex-row items-center justify-end mt-8 w-full">
           <Link href="/about-us">
             <text className="text-ocean-blue text-base md:text-xl">

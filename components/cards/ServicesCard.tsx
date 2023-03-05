@@ -1,7 +1,9 @@
+import Image from "next/image";
+
 const ServicesCard = () => {
   return (
     <div className="bg-black rounded-xl p-4 md:h-48 md:w-72">
-      <img src="images/manufatcuring.png" />
+      <Image src="images/manufatcuring.png" alt="img" />
     </div>
   );
 };
