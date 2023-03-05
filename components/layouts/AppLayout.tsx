@@ -1,17 +1,19 @@
-import Navbar from "../navbar/Navbar"
-import TransparentNavbar from "../navbar/TransparentNavbar"
+import Navbar from "../navbar/Navbar";
+import TransparentNavbar from "../navbar/TransparentNavbar";
+import Footer from "../footer/Footer";
 
 type LayoutProps = {
-    children : any
-}
+  children: any;
+};
 
-const AppLayout = ({children} : LayoutProps) => {
-    return(         
-        <div className="px-4 md:px-64 items-center justify-center gap-8 flex flex-col bg-white">
-            <TransparentNavbar />
-            {children}
-        </div>
-    )
-}
+const AppLayout = ({ children }: LayoutProps) => {
+  return (
+    <div className="px-4 md:px-64 items-center justify-center gap-8 flex flex-col bg-white">
+      <TransparentNavbar />
+      {children}
+      <Footer />
+    </div>
+  );
+};
 
-export default AppLayout
+export default AppLayout;
