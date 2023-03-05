@@ -35,19 +35,8 @@ export default function TransparentNavbar() {
         <ButtonBlue text="Our Services" onClick={() => {}} />
       </div>
       <div className="flex items-center md:hidden gap-4">
-        <BsSearch onClick={() => setShowMobileSearhBar(true)} />
         <MobileDropDownMenu />
       </div>
-      {showMobileSearchbar && (
-        <div className="absolute top-0 w-screen flex md:hidden left-0 bg-gray-200 h-12 px-4 items-center justify-center">
-          <div className="flex w-64 items-center flex-row ">
-            <BsXCircleFill
-              onClick={() => setShowMobileSearhBar(false)}
-              className="-ml-6"
-            />
-          </div>
-        </div>
-      )}
     </div>
   );
 }

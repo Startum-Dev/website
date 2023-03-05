@@ -16,7 +16,7 @@ const BlogPost = () => {
             consectetur adipiscing elit, sed do eiusmod tempor incididunt
             eiusmod tempor incididun consectetur...
           </p>
-          <div className="items-center justify-end flex flex-row w-full">
+          <div className="items-center justify-end flex flex-row w-full my-4">
             <Link href="#">
               <text className="text-sm text-ocean-blue">Read More</text>
             </Link>

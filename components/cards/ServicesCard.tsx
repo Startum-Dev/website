@@ -1,6 +1,6 @@
 const ServicesCard = () => {
   return (
-    <div className="bg-black rounded-xl p-4 h-48 w-72">
+    <div className="bg-black rounded-xl p-4 max-h-48 max-w-72">
       <img src="images/manufatcuring.png" />
     </div>
   );
