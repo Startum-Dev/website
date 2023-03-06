@@ -37,7 +37,9 @@ export default function MobileDropDownMenu() {
             </Link>
           </DropdownMenu.Item>
           <DropdownMenu.Item className="items-center justify-center flex">
-            <ButtonBlue text="Our Services" onClick={() => {}} />
+            <Link href="/#services">
+              <ButtonBlue text="Our Services" onClick={() => {}} />
+            </Link>
           </DropdownMenu.Item>
         </DropdownMenu.Content>
       </DropdownMenu.Portal>

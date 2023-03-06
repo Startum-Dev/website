@@ -32,7 +32,9 @@ export default function TransparentNavbar() {
         </Link>
       </div>
       <div className=" hidden md:flex items-center justify-between gap-4">
-        <ButtonBlue text="Our Services" onClick={() => {}} />
+        <Link href="/#services">
+          <ButtonBlue text="Our Services" onClick={() => {}} />
+        </Link>
       </div>
       <div className="flex items-center md:hidden gap-4">
         <MobileDropDownMenu />

@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const BlogPost = () => {
   return (
-    <div className="bg-white shadow rounded-xl flex flex-col overflow-hidden">
-      <div className=" p-4 h-48 w-full overflow-hidden ">
-        <Image src="images/im.jpg" alt="img" />
+    <div className="bg-white shadow rounded-xl flex flex-col overflow-hidden m-2">
+      <div className=" p-4 h-48 w-full overflow-hidden relative">
+        <Image fill src="/images/im.jpg" alt="img" />
       </div>
       <div className="flex flex-col gap-2">
         <div className="flex flex-row items-center justify-between px-4">

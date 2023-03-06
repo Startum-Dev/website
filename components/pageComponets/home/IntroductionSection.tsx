@@ -27,8 +27,8 @@ const IntroductionSection = () => {
           through product and service diversification.
         </p>
       </div>
-      <div className="md:col-span-2 items-center justify-center flex flex-col w-full mt-12">
-        <Image src="images/intro.png" className="w-full" alt="img" />
+      <div className="md:col-span-2 items-center justify-center flex flex-col w-full mt-12 relative h-96">
+        <Image src="/images/intro.png" fill className="w-full" alt="img" />
         <div className="flex flex-row items-center justify-end mt-8 w-full">
           <Link href="/about-us">
             <text className="text-ocean-blue text-base md:text-xl">
