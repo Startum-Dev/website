@@ -8,7 +8,7 @@ export default function MobileDropDownMenu() {
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger>
-        <BsMenuUp />
+        <BsMenuUp className="text-black" />
       </DropdownMenu.Trigger>
       <DropdownMenu.Portal>
         <DropdownMenu.Content
