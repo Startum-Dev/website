@@ -19,7 +19,7 @@ const PropertyCard = () => {
           </p>
           <hr className="my-4" />
           <div className="items-center justify-end flex flex-row w-full mb-4">
-            <Link href="#">
+            <Link href="/property-details">
               <text className="text-sm text-ocean-blue">View Property</text>
             </Link>
           </div>

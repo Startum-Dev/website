@@ -15,7 +15,7 @@ export default function TransparentNavbar() {
   const [showMobileSearchbar, setShowMobileSearhBar] = useState(false);
 
   return (
-    <div className="fixed top-0 w-screen bg-white  p-4 md:px-64 items-center justify-between flex py-2 h-20 z-10 text-primary-blue">
+    <div className="fixed top-0 w-screen bg-white  p-4 md:px-64 items-center justify-between shadow flex py-2 h-20 z-10 text-primary-blue">
       <Image src="/images/logo.png" height={120} width={240} alt="logo" />
       <div className="hidden md:flex w-96 items-center justify-center gap-4">
         <Link href="/">
