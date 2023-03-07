@@ -14,7 +14,8 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('/images/backg.png')",
-        bannersmall: "url('/images/smallbanner.png')"
+        bannersmall: "url('/images/smallbanner.png')",
+        realeastatebg: "url('/images/realbanner.png')"
       }
     }
   },
