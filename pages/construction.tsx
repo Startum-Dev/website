@@ -1,12 +1,14 @@
 import AppLayout from "../components/layouts/AppLayout";
-import BannerSmall from "../components/pageComponets/shared/BannerSmall";
-import BlogPost from "../components/cards/BlogPost";
-import Input from "../components/inputs/Input";
+import IntroSection from "../components/pageComponets/services/construction/IntroSection";
+import Projects from "../components/pageComponets/services/construction/Projects";
+import ConstructionServices from "../components/pageComponets/services/construction/ConstructionServices";
 
 const Construction = () => {
   return (
     <AppLayout>
-      <BannerSmall heading="Construction" />
+      <IntroSection />
+      <Projects />
+      <ConstructionServices />
     </AppLayout>
   );
 };

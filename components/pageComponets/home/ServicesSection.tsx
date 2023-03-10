@@ -15,12 +15,12 @@ const ServicesSection = () => {
       <div className="flex flex-row  items-center justify-cencter gap-1 md:gap-4 mt-16">
         <ServicesCard logo="/images/manufatcuring.png" url="/manufacturing" />
         <ServicesCard logo="/images/construction.png" url="/construction" />
-        <ServicesCard logo="/images/mining.png" url="/energy-and-petroleum" />
+        <ServicesCard logo="/images/energy.png" url="/energy-and-petroleum" />
         <ServicesCard logo="/images/mining.png" url="/mining" />
       </div>
       <div className="grid grid-cols-4 md:flex md:flex-row md:items-center md:justify-cencter gap-1 md:gap-4">
-        <ServicesCard logo="/images/mining.png" url="/microfinance" />
-        <ServicesCard logo="/images/mining.png" url="/medical-and-health" />
+        <ServicesCard logo="/images/microfinance.png" url="/microfinance" />
+        <ServicesCard logo="/images/health.png" url="/medical-and-health" />
         <ServicesCard logo="/images/real-eastate.png" url="/real-eastate" />
       </div>
     </div>
