@@ -1,12 +1,26 @@
 import AppLayout from "../components/layouts/AppLayout";
-import BannerSmall from "../components/pageComponets/shared/BannerSmall";
-import BlogPost from "../components/cards/BlogPost";
-import Input from "../components/inputs/Input";
+import MiningBanner from "../components/pageComponets/services/mining/MiningBanner";
+import { useState } from "react";
+import MinesTab from "../components/pageComponets/services/mining/MinesTab";
+import ExplorationTab from "../components/pageComponets/services/mining/ExplorationTab";
+import MachineryTab from "../components/pageComponets/services/mining/MachineryTab";
+import ConsumablesTab from "../components/pageComponets/services/mining/ConsumablesTab";
 
 const Mining = () => {
+  const [showingtab, setShowingTab] = useState("mines");
+
   return (
     <AppLayout>
-      <BannerSmall heading="Mining" />
+      <MiningBanner
+        minesTab={() => setShowingTab("mines")}
+        machineryTab={() => setShowingTab("machinery")}
+        explorationTab={() => setShowingTab("explore")}
+        consumablesTab={() => setShowingTab("consume")}
+      />
+      {showingtab == "mines" && <MinesTab />}
+      {showingtab == "explore" && <ExplorationTab />}
+      {showingtab == "machinery" && <MachineryTab />}
+      {showingtab == "consume" && <ConsumablesTab />}
     </AppLayout>
   );
 };
