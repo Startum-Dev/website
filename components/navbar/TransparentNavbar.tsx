@@ -19,29 +19,36 @@ export default function TransparentNavbar() {
       <Image src="/images/logo.png" height={120} width={240} alt="logo" />
       <div className="hidden md:flex w-96 items-center justify-center gap-14">
         <Link href="/">
-          <text className="text-black hover:text-amber-600 hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
+          <button className="text-black hover:text-amber-600 hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
             HOME
-          </text>
+          </button>
+        </Link>
+        <Link href="/#services">
+          <button className="text-black hover:text-amber-600 hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
+            SERVICES
+          </button>
         </Link>
         <Link href="/blog">
-          <text className="text-black hover:text-amber-600 hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
+          <button className="text-black hover:text-amber-600 hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
             BLOG
-          </text>
+          </button>
         </Link>
         <Link href="/about-us">
-          <text className="text-black hover:text-amber-600 hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
+          <button className="text-black hover:text-amber-600 hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
             ABOUT
-          </text>
+          </button>
         </Link>
         <Link href="/contact-us">
-          <text className="text-black hover:text-amber-600 hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
+          <button className="text-black hover:text-amber-600 hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
             CONTACT
-          </text>
+          </button>
         </Link>
       </div>
       <div className=" hidden md:flex items-center justify-between gap-4">
         <Link href="/#services">
-          <ButtonBlue text="Our Services" onClick={() => {}} />
+          <button className="rounded border-2 border-black text-black hover:text-amber-600 hover:border-amber-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold p-2">
+            PROJECT HUB
+          </button>
         </Link>
       </div>
       <div className="flex items-center md:hidden gap-4">
