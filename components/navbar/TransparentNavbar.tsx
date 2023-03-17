@@ -45,7 +45,7 @@ export default function TransparentNavbar() {
         </Link>
       </div>
       <div className=" hidden md:flex items-center justify-between gap-4">
-        <Link href="/#services">
+        <Link href="#d">
           <button className="rounded border-2 border-black text-black hover:text-amber-600 hover:border-amber-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold p-2">
             PROJECT HUB
           </button>
