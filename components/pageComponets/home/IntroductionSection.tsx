@@ -1,5 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+import DemoCarousel from "../../courosel/Courosel";
 
 const IntroductionSection = () => {
   return (
@@ -22,18 +25,8 @@ const IntroductionSection = () => {
           finding solutions through product and service diversification.
         </p>
       </div>
-      <div
-        className="md:col-span-2 items-center justify-center flex flex-col w-full mt-12 relative"
-        style={{ height: 600 }}
-      >
-        <Image src="/images/intro.png" fill className="w-full" alt="img" />
-        <div className="flex flex-row items-center justify-end mt-8 w-full">
-          <Link href="/about-us">
-            <text className="text-ocean-blue text-base md:text-xl">
-              About Us
-            </text>
-          </Link>
-        </div>
+      <div className="col-span-2">
+        <DemoCarousel />
       </div>
     </div>
   );
