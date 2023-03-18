@@ -17,7 +17,7 @@ module.exports = {
         hero: "url('/images/backg.png')",
         bannersmall: "url('/images/smallbanner.png')",
         realeastatebg: "url('/images/realbanner.png')",
-        manubg: "url('/images/manubg.png')"
+        manubg: "url('/images/manu.png')"
       }
     }
   },
