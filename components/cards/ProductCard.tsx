@@ -3,14 +3,24 @@ import Image from "next/image";
 
 const ProductCard = () => {
   return (
-    <div className="bg-white shadow rounded flex flex-col overflow-hidden m-2">
-      <div className=" p-4 h-48 w-full overflow-hidden relative">
-        <Image fill src="/images/house3.jpg" alt="img" />
+    <div className="bg-white flex flex-col overflow-hidden m-2">
+      <div className=" p-4 h-80  w-80 overflow-hidden relative hover:grayscale">
+        <Image
+          fill
+          src="/images/man.jpg"
+          alt="img"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
+        />
       </div>
-      <div className="flex flex-col gap-2">
-        <div className="flex flex-row items-center justify-between  py-4 px-1">
-          <h5 className="font-bold text-xl text-black">Product 1</h5>
-          <p className="text-sm text-xl text-black">$3.00</p>
+      <div className="flex flex-col">
+        <div className="flex flex-col py-4 gap-2">
+          <h5 className="font-bold text-black text-base">Manhole Cover</h5>
+          <p className="font-bold text-base text-primary-yellow">$34.00</p>
+          <div className="flex">
+            <button className="flex py-2 px-6 bg-primary-yellow text-white text-base font-bold">
+              Details
+            </button>
+          </div>
         </div>
       </div>
     </div>

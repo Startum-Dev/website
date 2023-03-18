@@ -8,8 +8,8 @@ interface ServicesCardProps {
 const ServicesCard = ({ logo, url }: ServicesCardProps) => {
   return (
     <Link href={url}>
-      <div className="relative bg-white rounded-xl h-12 w-20 p-4 md:h-48 md:w-72">
-        <Image fill src={logo} alt="img" />
+      <div className="relative bg-white hover:bg-black rounded-xl h-12 w-20 p-4 md:h-48 md:w-72 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
+        <Image fill src={logo} alt="img" className="hover:hidden" />
       </div>
     </Link>
   );

@@ -10,12 +10,14 @@ module.exports = {
         "regal-blue": "#001128",
         "transparent-white": "#0011287d",
         "ocean-blue": "#009dc4",
-        "da-green": "#006a72"
+        "da-green": "#006a72",
+        "primary-yellow": "#fcca03"
       },
       backgroundImage: {
         hero: "url('/images/backg.png')",
         bannersmall: "url('/images/smallbanner.png')",
-        realeastatebg: "url('/images/realbanner.png')"
+        realeastatebg: "url('/images/realbanner.png')",
+        manubg: "url('/images/manubg.png')"
       }
     }
   },
