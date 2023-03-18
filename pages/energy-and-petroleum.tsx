@@ -1,12 +1,11 @@
 import AppLayout from "../components/layouts/AppLayout";
 import BannerSmall from "../components/pageComponets/shared/BannerSmall";
-import BlogPost from "../components/cards/BlogPost";
-import Input from "../components/inputs/Input";
+import EnergyBanner from "../components/pageComponets/services/enerygy/EnergyBanner";
 
 const EnergyAndPetroleum = () => {
   return (
     <AppLayout>
-      <BannerSmall heading="Energy and Petroleum" />
+      <EnergyBanner />
     </AppLayout>
   );
 };

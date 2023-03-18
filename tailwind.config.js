@@ -18,7 +18,8 @@ module.exports = {
         bannersmall: "url('/images/smallbanner.png')",
         realeastatebg: "url('/images/realbanner.png')",
         manubg: "url('/images/manu.png')",
-        constbg: "url('/images/const.png')"
+        constbg: "url('/images/const.png')",
+        energybg: "url('/images/gas.png')"
       }
     }
   },
