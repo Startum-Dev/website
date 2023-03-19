@@ -18,12 +18,12 @@ const ConstructionBanner = ({
       style={{ height: 300 }}
     >
       <div>
-        <h1 className="absolute left-0 text-white font-semibold text-xl mt-8 ml-10">
-          Chaînes Lloyd Construction
+        <h1 className="hidden md:absolute left-0 text-white font-semibold text-xl mt-8 ml-10">
+          Construction
         </h1>
       </div>
-      <div className="bg-primary-yellow w-1/3 p-1 rounded">
-        <div className="bg-white  flex flex-row items-center justify-evenly p-2">
+      <div className="bg-primary-yellow w-2/3 md:w-1/3 p-1 rounded">
+        <div className="bg-primary-black  flex flex-col md:flex-row items-center justify-evenly p-2">
           <div
             className={`p-4 font-bold ${
               activeTab === "machinery" ? "bg-primary-yellow" : ""

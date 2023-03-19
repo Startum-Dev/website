@@ -3,7 +3,9 @@ import Image from "next/image";
 const MinesTab = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center gap-8">
-      <h1 className="text-black text-3xl md:text-6xl font-bold">Our Mines</h1>
+      <h1 className="text-3xl md:text-6xl font-semibold text-text-color">
+        Our Mines
+      </h1>
 
       <div className="w-full flex flex-col md:grid md:grid-cols-2 gap-4">
         <div className=" p-4 w-full h-96 overflow-hidden relative hover:grayscale">
@@ -15,7 +17,7 @@ const MinesTab = () => {
           />
         </div>
         <div className=" p-4 w-full h-96 flex flex-col items-center justify-center">
-          <p className="text-xl md:text-2xl text-black text-center">
+          <p className="text-xs md:text-sm text-text-color">
             Shop fitting works, General Repairs and maintenance, Painting,
             Carpentry, Glazing, Plumbing, Electrical, maintenance and
             installations, Waterproofing, Tiling, Flooring, Civil works, Water
@@ -25,7 +27,7 @@ const MinesTab = () => {
       </div>
       <div className="w-full flex flex-col md:grid md:grid-cols-2 gap-4">
         <div className="p-4 w-full h-96 flex flex-col items-center justify-center">
-          <p className="text-xl md:text-2xl text-black text-center">
+          <p className="text-xs md:text-sm text-text-color">
             Structural steel design, Earth works, Roads rehabilitation, Hard
             Stands, Renewable energy, Fencing, Civil Consultancy, Bridges, Site
             Clearance, Excavations, Compaction, Roads Resurfacing
@@ -50,7 +52,7 @@ const MinesTab = () => {
           />
         </div>
         <div className=" p-4 w-full h-96 flex flex-col items-center justify-center">
-          <p className="text-xl md:text-2xl text-black text-center">
+          <p className="text-xs md:text-sm text-text-color">
             Shop fitting works, General Repairs and maintenance, Painting,
             Carpentry, Glazing, Plumbing, Electrical, maintenance and
             installations, Waterproofing, Tiling, Flooring, Civil works, Water

@@ -7,14 +7,16 @@ const VisionSection = () => {
         <img src="images/about.png" alt="img" />
       </div>
       <div className="flex flex-col gap-4">
-        <h1 className="text-black text-3xl md:text-6xl font-bold">Vision</h1>
-        <p className="text-xl md:text-2xl text-black">
+        <h1 className="text-3xl md:text-6xl font-semibold text-text-color">
+          Vision
+        </h1>
+        <p className="text-xs md:text-sm text-text-color">
           Constructing a legacy that will live forever.
         </p>
-        <h1 className="text-black text-3xl md:text-6xl font-bold">
+        <h1 className="text-3xl md:text-6xl font-semibold text-text-color">
           Mission Statement
         </h1>
-        <p className="text-xl md:text-2xl text-black">
+        <p className="text-xs md:text-sm text-text-color">
           Driven by the essence of clientele and stakeholders&apos; satisfaction
           in the society and industries we venture in. Deep affinity poesy for
           authenticity is our art, as quality is rare in a world of mimicry.

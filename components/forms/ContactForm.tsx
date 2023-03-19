@@ -10,7 +10,9 @@ const ContactForm = () => {
         <Input placeholder="Phone Number" />
         <TextArea placeholder="message" />
         <div>
-          <ButtonBlue text="Submit" onClick={() => {}} />
+          <button className="flex py-2 px-6 bg-primary-yellow text-white text-base font-bold hover:bg-primary-black">
+            Subimt
+          </button>
         </div>
       </form>
     </div>
