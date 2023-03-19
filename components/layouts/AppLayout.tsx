@@ -8,7 +8,7 @@ type LayoutProps = {
 
 const AppLayout = ({ children }: LayoutProps) => {
   return (
-    <div className="px-4 md:px-64 items-center justify-center gap-8 flex flex-col bg-white font-sans">
+    <div className="px-4 md:px-64 items-center justify-center gap-8 flex flex-col bg-white font-sans bg-background-black text-white">
       <TransparentNavbar />
       {children}
       <Footer />

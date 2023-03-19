@@ -6,12 +6,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Segoe UI"],
+        serif: ["ui-serif", "Georgia"]
+      },
       colors: {
-        "regal-blue": "#001128",
-        "transparent-white": "#0011287d",
-        "ocean-blue": "#009dc4",
-        "da-green": "#006a72",
-        "primary-yellow": "#fcca03"
+        "text-color": "#a3a3a3",
+        "transparent-white": "#3535307d",
+        "faint-gold": "#40403b",
+        "background-black": "#1c1b19",
+        "primary-yellow": "#fcd462",
+        "primary-black": "#353530"
       },
       backgroundImage: {
         hero: "url('/images/backg.png')",
