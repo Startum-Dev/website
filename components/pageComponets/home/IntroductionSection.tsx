@@ -2,29 +2,32 @@ import Link from "next/link";
 import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import ServicesCarousel from "../../courosel/ServicesCourosel";
-import DemoCarousel from "../../courosel/Courosel";
+import MobileServicesCarousel from "../../courosel/MobileServiceCourosel";
 
 const IntroductionSection = () => {
   return (
     <div className="flex flex-col w-screen items-center justify-center">
-      <div className=" w-2/3 relative -mt-32">
+      <div className="hidden md:flex md:flex-row w-2/3 relative -mt-32">
         <ServicesCarousel />
+      </div>
+      <div className="w-2/3 md:hidden relative -mt-32 mb-12">
+        <MobileServicesCarousel />
       </div>
       <div className="flex flex-col w-full  md:grid md:grid-cols-2 px-8 md:w-2/3 md:py-24">
         <div className="grid grid-cols-2">
           <div className="flex flex-col gap-8">
-            <div className="h-80 w-64 bg-primary-black overflow-hidden relative">
+            <div className="h-44 w-40 md:h-80 md:w-64 bg-primary-black overflow-hidden relative">
               <Image src="/images/wala.png" fill alt="img" />
             </div>
-            <div className="h-80 w-64  overflow-hidden relative">
+            <div className="h-44 w-40 md:h-80 md:w-64  overflow-hidden relative">
               <Image src="/images/dez.png" fill alt="img" />
             </div>
           </div>
           <div className="flex flex-col gap-8 mt-8">
-            <div className="h-80 w-64  overflow-hidden relative">
+            <div className="h-44 w-40 md:h-80 md:w-64  overflow-hidden relative">
               <Image src="/images/man.png" fill alt="img" />
             </div>
-            <div className="h-80 w-64 bg-primary-black overflow-hidden relative">
+            <div className="h-44 w-40 md:h-80 md:w-64 bg-primary-black overflow-hidden relative">
               <Image src="/images/mine.png" fill alt="img" />
             </div>
           </div>

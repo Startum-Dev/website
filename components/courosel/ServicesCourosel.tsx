@@ -35,7 +35,6 @@ const ServicesCarousel = () => {
           </div>
         </Link>
       </div>
-
       <div className="grid grid-cols-4 w-full h-64 p-8 gap-8 bg-primary-black">
         <Link href="energy-and-petroleum">
           <div className="w-full h-full flex flex-col border-2 border-faint-gold items-start justify-center gap-4 p-4 relative">

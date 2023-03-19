@@ -1,4 +1,4 @@
-import ServicesCard from "../../cards/ServicesCard";
+import MobileServicesCarousel2 from "../../courosel/MobileServiceCourousel2";
 import ServicesCarousel2 from "../../courosel/ServicesCourosel2";
 
 const ServicesSection = () => {
@@ -13,8 +13,11 @@ const ServicesSection = () => {
       <p className="text-sx font-semibold text-text-color -mt-6">
         we are diversified into seven major industries
       </p>
-      <div className="grid grid-cols-4 md:flex md:flex-row md:items-center md:justify-cencter gap-1 md:gap-4">
+      <div className="hidden  md:flex md:flex-row md:items-center md:justify-cencter gap-1 md:gap-4">
         <ServicesCarousel2 />
+      </div>
+      <div className="flex flex-col md:hidden">
+        <MobileServicesCarousel2 />
       </div>
     </div>
   );
