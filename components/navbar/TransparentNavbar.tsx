@@ -1,13 +1,6 @@
 import Link from "next/link";
-import {
-  BsWhatsapp,
-  BsInstagram,
-  BsTwitter,
-  BsSearch,
-  BsXCircleFill
-} from "react-icons/bs";
 import MobileDropDownMenu from "../dropdowns/MobileDropDownMenu";
-import ButtonBlue from "../buttons/ButtonBlue";
+import ServicesDropDownMenu from "../dropdowns/ServicesDropDown";
 import Image from "next/image";
 import React, { useState } from "react";
 
@@ -23,11 +16,7 @@ export default function TransparentNavbar() {
             HOME
           </button>
         </Link>
-        <Link href="/#services">
-          <button className="text-white hover:text-primary-yellow hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
-            SERVICES
-          </button>
-        </Link>
+        <ServicesDropDownMenu />
         <Link href="/blog">
           <button className="text-white hover:text-primary-yellow hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
             BLOG
