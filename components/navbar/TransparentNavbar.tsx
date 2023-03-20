@@ -27,6 +27,11 @@ export default function TransparentNavbar() {
             ABOUT
           </button>
         </Link>
+        <Link href="#">
+          <button className="text-white hover:text-primary-yellow hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
+            COMPANY PROFILE
+          </button>
+        </Link>
         <Link href="/contact-us">
           <button className="text-white hover:text-primary-yellow hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
             CONTACT
@@ -34,7 +39,7 @@ export default function TransparentNavbar() {
         </Link>
       </div>
       <div className=" hidden md:flex items-center justify-between gap-4">
-        <Link href="#d">
+        <Link href="/projects-hub">
           <button className="rounded border-2 border-white text-white hover:text-primary-yellow hover:border-primary-yellow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold p-2">
             PROJECT HUB
           </button>

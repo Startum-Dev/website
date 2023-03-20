@@ -41,6 +41,13 @@ export default function MobileDropDownMenu() {
             </Link>
           </DropdownMenu.Item>
           <DropdownMenu.Item className="text-sm font-semibold flex gap-2 items-center justify-start p-2">
+            <Link href="/#">
+              <text className="text-white text-lg font-semibold hover:text-primary-yellow">
+                COMPANY PROFILE
+              </text>
+            </Link>
+          </DropdownMenu.Item>
+          <DropdownMenu.Item className="text-sm font-semibold flex gap-2 items-center justify-start p-2">
             <Link href="/contact-us">
               <text className="text-white text-lg font-semibold hover:text-primary-yellow">
                 CONTACT
@@ -48,7 +55,7 @@ export default function MobileDropDownMenu() {
             </Link>
           </DropdownMenu.Item>
           <DropdownMenu.Item className="items-center justify-center flex">
-            <Link href="#d">
+            <Link href="/projects-hub">
               <button className="rounded border-2 border-white text-white hover:text-primary-yellow hover:border-primary-yellow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold p-2">
                 PROJECT HUB
               </button>
