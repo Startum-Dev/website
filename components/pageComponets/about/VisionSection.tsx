@@ -3,8 +3,8 @@ import Image from "next/image";
 const VisionSection = () => {
   return (
     <div className="flex flex-col w-screen md:grid md:grid-cols-2 p-8 md:px-64 md:py-24">
-      <div className="items-start justify-start">
-        <img src="images/about.png" alt="img" />
+      <div className="items-start justify-start relative">
+        <Image fill src="images/about.png" alt="img" />
       </div>
       <div className="flex flex-col gap-4">
         <h1 className="text-3xl md:text-6xl font-semibold text-text-color">

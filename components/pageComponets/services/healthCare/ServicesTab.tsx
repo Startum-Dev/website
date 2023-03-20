@@ -29,17 +29,17 @@ const ServicesTab = () => {
             committed to every comfort.
           </p>
           <p className="text-xs md:text-sm text-text-color">
-            Our doctors and medical team put patient care first, and they're
-            backed up by a friendly and helpful clinic staff. Our doctors and
+            Our doctors and medical team put patient care first, and they&apos;
+            re backed up by a friendly and helpful clinic staff. Our doctors and
             nurses sincerely care about you and your health. Compared to other
             clinics, our normal appointment times are 50 percent longer
           </p>
           <p className="text-xs md:text-sm text-text-color">
-            The company's founders were passionate about differentiating
+            The company&apos;s founders were passionate about differentiating
             health-care services by implementing creative solutions that would
             improve the patient experience. A young, dynamic company capable of
             combining quality services and craftsmanship by paying attention to
-            detail in our clients' and external environments, knowledge of
+            detail in our clients&apos; and external environments, knowledge of
             materials and patient needs, architectural quality and quality
             finishes through process and production innovation, and the highest
             quality design and construction of furniture and prefabricated
