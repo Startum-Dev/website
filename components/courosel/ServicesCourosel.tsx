@@ -8,7 +8,7 @@ const ServicesCarousel = () => {
   return (
     <Carousel
       autoPlay
-      interval={2000}
+      interval={4000}
       infiniteLoop
       showStatus={false}
       showArrows={false}
