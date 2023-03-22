@@ -16,11 +16,11 @@ const BuyTab = () => {
         boasts a large array of property for sale across the nation. From
         commercial property to vacant land, developments, farms and residential
         homes of all shapes and sizes, our global footprint ensures we can offer
-        you the very best of whatever you're looking for. We offer unparalleled,
-        area focused expertise, whether you&apos;re seasoned at looking at
-        property for sale, or it&apos;s your first time in the property market
-        and you need guidance on how to buy property. Start your property search
-        with us today.
+        you the very best of whatever you&apos;re looking for. We offer
+        unparalleled, area focused expertise, whether you&apos;re seasoned at
+        looking at property for sale, or it&apos;s your first time in the
+        property market and you need guidance on how to buy property. Start your
+        property search with us today.
       </p>
       <div className="flex md:w-2/3 flex-col gap-4">
         <h1 className="text-xl md:text-2xl font-semibold text-text-color">
