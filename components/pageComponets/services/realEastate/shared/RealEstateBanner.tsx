@@ -3,10 +3,9 @@ import { useState } from "react";
 interface BannerProps {
   buyTab: () => void;
   rentTab: () => void;
-  auctionTab: () => void;
 }
 
-const HealthCareBanner = ({ buyTab, rentTab, auctionTab }: BannerProps) => {
+const HealthCareBanner = ({ buyTab, rentTab }: BannerProps) => {
   const [activeTab, setActiveTab] = useState("buy");
 
   return (
@@ -47,20 +46,6 @@ const HealthCareBanner = ({ buyTab, rentTab, auctionTab }: BannerProps) => {
               }}
             >
               Rent
-            </button>
-          </div>
-          <div
-            className={`p-4 font-bold ${
-              activeTab === "auction" ? "bg-primary-yellow" : ""
-            } rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110`}
-          >
-            <button
-              onClick={() => {
-                setActiveTab("auction");
-                auctionTab();
-              }}
-            >
-              Auction
             </button>
           </div>
         </div>
