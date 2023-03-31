@@ -5,8 +5,13 @@ const Footer = () => {
   return (
     <div className="w-screen bg-black md:px-64 flex flex-col py-24 px-8">
       <div className="flex flex-col md:grid md:grid-cols-3 gap-4">
-        <div className="relative">
-          <Image fill src="/images/logo.png" alt="img" />
+        <div className="relative flex flex-row gap-4 items-center justify-center">
+          <div className="relative w-28 h-20  rounded-lg overflow-hidden">
+            <Image fill src="/images/paypal.png" alt="img" />
+          </div>
+          <div className="relative w-28 h-20 rounded-lg overflow-hidden">
+            <Image fill src="/images/visa.jpg" alt="img" />
+          </div>
         </div>
         <div className="flex flex-col gap-4">
           <h2 className="text-white text-xl md:text-2xl">Quick Links</h2>
