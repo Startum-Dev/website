@@ -1,21 +1,30 @@
+============Done Sectors==============
+1. Medical Secotor is conidered done
+2. Real Eastate is consodered done
+3. Energy and Petroleum
+    -Under these section we tried to find the services that could be provided under gas, solar and petroleum  and we outline these on the platform 
+    -Under Solar we solar, we listed services that we could filter from the company profile(if more details are required to be added under these services please do supply)
+    -Under gas, we couldn't find a viriety of services except the supply of gas hence the pictures and text telling the user that we do supply gas
+    -Under petroleum we also did what we did on solar, i.e trying to find products/services that could be provided under petroleum and oulined those
+    (again if more details are required to be added under these services please do supply)
+4. construction
+    -Under services we listed the services filtered from the company profile
+5.Manufactring is considered done
+6.Microfinance is considered done (with pictures to be updated)
+7.Email customer support considered done (the form on the contact page send messages from the website directly to email)
+8.Whatsapp Link connect done
+9.Projects hub considered done
 
+============Pending issues, Quries Requirements==============
+1. List of Medical Products (Product Name, Category, Product description and product picture)
+2. Construction and Mining mechinery - i personlly didnt understand what was required here hence only pictures of the machine. If we could be provided with a list of 
+the machinery(Names, description and images, we could display those using the format of health services).same applies with consumables
+3. List of Manufacturing Products (Product Name, Category, Product description and product picture)
+4.List of Microfinance Products (Product Name, Category, Product description and product picture)
+5.Is FAQs supposed to be a stand alon page or we work with those under respective sections
 
-2nd Sector - Real Estate 
-Same features and functionality as of Palm golding (www.palmgolding.co.za)
-
-3rd Sector - Energy & Petroleum 
-Same features and functionality as of (https://altogethergroup.com.au)
-
-
-PROJECT HUB 
-Similar features(www.nativeunion.com) 
-Filters - 
-Sponsorship. Investment. Alliance(Partnership). Outright Purchase
-Sector
-Budget 
-Location
-
-==============internet ====================
-1.how to change image on hover tailwindcss
-
+===================Notes for Cavin========================
+1.Approprite pictures on petroleum
+2.Enquiry Section, Document Pitch deck ,Video Demonstratation or Presentation (Features outside the scope of basic website)
+3.Replace footer logo with logo for paypal and visa
 

@@ -11,6 +11,7 @@ const ProductsTab = () => {
             <select className="bg-primary-black border-2 border-faint-gold rounded px-4 py-2 w-40">
               <option>Default</option>
               <option>By Price</option>
+              <option>Type</option>
               <option>New</option>
             </select>
           </div>

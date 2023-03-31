@@ -6,7 +6,7 @@ interface CardProps {
 }
 const SolarCard = ({ image, heading }: CardProps) => {
   return (
-    <div className="flex flex-col items-center justify-center h-72 w-96">
+    <div className="flex flex-col items-center justify-center h-96 w-full">
       <div className="relative w-full h-full">
         <Image src={image} fill alt="image" />
       </div>

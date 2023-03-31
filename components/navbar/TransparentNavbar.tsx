@@ -32,11 +32,16 @@ export default function TransparentNavbar() {
             CONTACT
           </button>
         </Link>
+        <Link href="/projects-hub">
+          <button className="text-white hover:text-primary-yellow hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
+            PROJECTS HUB
+          </button>
+        </Link>
       </div>
       <div className=" hidden md:flex items-center justify-between gap-4">
-        <Link href="/projects-hub">
+        <Link href="https://wa.me/+263775953491">
           <button className="rounded border-2 border-white text-white hover:text-primary-yellow hover:border-primary-yellow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold p-2">
-            PROJECT HUB
+            WHATSAPP
           </button>
         </Link>
       </div>

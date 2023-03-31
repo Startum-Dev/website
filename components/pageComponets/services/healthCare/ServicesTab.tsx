@@ -7,7 +7,7 @@ const ServicesTab = () => {
         <div className=" p-4 w-full h-96 overflow-hidden relative hover:grayscale">
           <Image
             fill
-            src="/images/grind.jpg"
+            src="/images/med.jpg"
             alt="img"
             className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
           />
@@ -86,7 +86,7 @@ const ServicesTab = () => {
         <div className=" p-4 w-full h-96 overflow-hidden relative hover:grayscale">
           <Image
             fill
-            src="/images/grind.jpg"
+            src="/images/doc.png"
             alt="img"
             className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
           />
