@@ -6,47 +6,106 @@ const MachineryTab = () => {
       <h1 className="text-3xl md:text-6xl font-semibold text-text-color">
         Machinery
       </h1>
-      <div className="w-full flex flex-col md:grid md:grid-cols-2 gap-4">
-        <div className=" p-4 w-full h-96 overflow-hidden relative hover:grayscale">
-          <Image
-            fill
-            src="/images/grad.jpg"
-            alt="img"
-            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
-          />
+      <p className="text-xs md:text-sm text-text-color text-center">
+        Our construction sector has a complete collection of high end machinery
+        that makes sure we do the job better thab any one else
+      </p>
+      <div className="w-screen p-8 bg-primary-black flex flex-col items-center gap-8 justify-center">
+        <div className="flex flex-row items-center justify-start">
+          <h1 className="text-xl md:text-4xl font-semibold text-text-color">
+            Earth moving machines
+          </h1>
         </div>
-        <div className="w-full h-96 overflow-hidden  grid gap-2 grid-cols-2">
-          <div className="relative hover:grayscale">
-            <Image
-              fill
-              src="/images/mac1.jpg"
-              alt="img"
-              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
-            />
+        <div className="flex flex-row items-center justify-center gap-4">
+          <div className="flex flex-col bg-background-black shadow rounded p-2 h-96 w-96">
+            <div className="w-full h-full relative">
+              <Image src="/images/grad.jpg" fill alt="image" />
+            </div>
+            <div className="flex flex-row items-center justify-center py-4">
+              <h2 className="text-text-color  font-bold">Crane</h2>
+            </div>
           </div>
-          <div className="relative hover:grayscale">
-            <Image
-              fill
-              src="/images/mac2.jpg"
-              alt="img"
-              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
-            />
+          <div className="flex flex-col bg-background-black shadow rounded p-2 h-96 w-96">
+            <div className="w-full h-full relative">
+              <Image src="/images/mac2.jpg" fill alt="image" />
+            </div>
+            <div className="flex flex-row items-center justify-center py-4">
+              <h2 className="text-text-color  font-bold">Fork Lift</h2>
+            </div>
           </div>
-          <div className="relative hover:grayscale">
-            <Image
-              fill
-              src="/images/mac3.jpg"
-              alt="img"
-              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
-            />
+          <div className="flex flex-col bg-background-black shadow rounded p-2 h-96 w-96">
+            <div className="w-full h-full relative">
+              <Image src="/images/tipper.jpg" fill alt="image" />
+            </div>
+            <div className="flex flex-row items-center justify-center py-4">
+              <h2 className="text-text-color  font-bold">Tipper</h2>
+            </div>
           </div>
-          <div className="relative hover:grayscale">
-            <Image
-              fill
-              src="/images/tipper.jpg"
-              alt="img"
-              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
-            />
+        </div>
+      </div>
+      <div className="w-screen p-8 bg-background-black flex flex-col items-center gap-8 justify-center">
+        <div className="flex flex-row items-center justify-start">
+          <h1 className="text-xl md:text-4xl font-semibold text-text-color">
+            Earth moving machines
+          </h1>
+        </div>
+        <div className="flex flex-row items-center justify-center gap-4">
+          <div className="flex flex-col bg-primary-black shadow rounded p-2 h-96 w-96">
+            <div className="w-full h-full relative">
+              <Image src="/images/grad.jpg" fill alt="image" />
+            </div>
+            <div className="flex flex-row items-center justify-center py-4">
+              <h2 className="text-text-color  font-bold">Crane</h2>
+            </div>
+          </div>
+          <div className="flex flex-col bg-primary-black shadow rounded p-2 h-96 w-96">
+            <div className="w-full h-full relative">
+              <Image src="/images/mac2.jpg" fill alt="image" />
+            </div>
+            <div className="flex flex-row items-center justify-center py-4">
+              <h2 className="text-text-color  font-bold">Fork Lift</h2>
+            </div>
+          </div>
+          <div className="flex flex-col bg-primary-black shadow rounded p-2 h-96 w-96">
+            <div className="w-full h-full relative">
+              <Image src="/images/tipper.jpg" fill alt="image" />
+            </div>
+            <div className="flex flex-row items-center justify-center py-4">
+              <h2 className="text-text-color  font-bold">Tipper</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-screen p-8 bg-primary-black flex flex-col items-center gap-8 justify-center">
+        <div className="flex flex-row items-center justify-start">
+          <h1 className="text-xl md:text-4xl font-semibold text-text-color">
+            Earth moving machines
+          </h1>
+        </div>
+        <div className="flex flex-row items-center justify-center gap-4">
+          <div className="flex flex-col bg-background-black shadow rounded p-2 h-96 w-96">
+            <div className="w-full h-full relative">
+              <Image src="/images/grad.jpg" fill alt="image" />
+            </div>
+            <div className="flex flex-row items-center justify-center py-4">
+              <h2 className="text-text-color  font-bold">Crane</h2>
+            </div>
+          </div>
+          <div className="flex flex-col bg-background-black shadow rounded p-2 h-96 w-96">
+            <div className="w-full h-full relative">
+              <Image src="/images/mac2.jpg" fill alt="image" />
+            </div>
+            <div className="flex flex-row items-center justify-center py-4">
+              <h2 className="text-text-color  font-bold">Fork Lift</h2>
+            </div>
+          </div>
+          <div className="flex flex-col bg-background-black shadow rounded p-2 h-96 w-96">
+            <div className="w-full h-full relative">
+              <Image src="/images/tipper.jpg" fill alt="image" />
+            </div>
+            <div className="flex flex-row items-center justify-center py-4">
+              <h2 className="text-text-color  font-bold">Tipper</h2>
+            </div>
           </div>
         </div>
       </div>

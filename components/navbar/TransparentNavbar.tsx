@@ -3,6 +3,7 @@ import MobileDropDownMenu from "../dropdowns/MobileDropDownMenu";
 import ServicesDropDownMenu from "../dropdowns/ServicesDropDown";
 import Image from "next/image";
 import React, { useState } from "react";
+import { BsWhatsapp } from "react-icons/bs";
 
 export default function TransparentNavbar() {
   const [showMobileSearchbar, setShowMobileSearhBar] = useState(false);
@@ -40,7 +41,8 @@ export default function TransparentNavbar() {
       </div>
       <div className=" hidden md:flex items-center justify-between gap-4">
         <Link href="https://wa.me/+263775953491">
-          <button className="rounded border-2 border-white text-white hover:text-primary-yellow hover:border-primary-yellow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold p-2">
+          <button className="flex flex-row gap-2 items-center justify-center rounded border-2 border-white text-white hover:text-primary-yellow hover:border-primary-yellow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold p-2">
+            <BsWhatsapp />
             WHATSAPP
           </button>
         </Link>
