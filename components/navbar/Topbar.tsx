@@ -8,7 +8,10 @@ import {
   BsCalendar
 } from "react-icons/bs";
 
-const Topbar = () => {
+interface TopbarProps {
+  bookAppintment: () => void;
+}
+const Topbar = ({ bookAppintment }: TopbarProps) => {
   return (
     <div className="w-full w-screen  bg-primary-black h-12 items-center justify-between shadow flex  text-primary-blue font-sans">
       <div className="flex flex-row items-center justify-center px-12 gap-4 divide-x">
@@ -42,7 +45,10 @@ const Topbar = () => {
           <BsClock />
           <p className="font-semibold">Open hours Mon to Fri 0800 - 1700</p>
         </span>
-        <button className="items-center justify-center flex flex-row h-full gap-2 text-xs text-white font-semibold text-primary-black">
+        <button
+          className="items-center justify-center flex flex-row h-full gap-2 text-xs text-white font-semibold text-primary-black"
+          onClick={bookAppintment}
+        >
           <BsCalendar />
           <p className="font-bold">Book Appointment</p>
         </button>
