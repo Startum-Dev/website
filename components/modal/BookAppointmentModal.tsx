@@ -37,15 +37,6 @@ const BookAppointmentModal = ({ close }: ModalProps) => {
                 p-2
                 "
           />
-          <input
-            placeholder="Date and time"
-            className="
-                border-2 border-primary-black
-                h-12
-                rounded
-                p-2
-                "
-          />
           <div className="w-full flex-row-reverse flex gap-2">
             <button className="px-4 py-4 rounded bg-primary-yellow">
               Book Now
