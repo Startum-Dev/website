@@ -15,8 +15,8 @@ module.exports = {
         "transparent-white": "#3535307d",
         "faint-gold": "#40403b",
         "background-black": "#1c1b19",
-        "primary-yellow": "#fcd462",
-        "primary-black": "#353530"
+        "primary-yellow": "#ffbe33",
+        "primary-black": "#222831"
       },
       backgroundImage: {
         hero: "url('/images/backg.png')",

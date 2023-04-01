@@ -1,30 +1,36 @@
-import Image from "next/image";
+import ProductCard from "../../../cards/ProductCard";
+import Input from "../../../inputs/Input";
+import { BsSearch } from "react-icons/bs";
 
 const ConsumablesTab = () => {
   return (
-    <div className="w-full h-full flex flex-col items-center justify-center gap-8">
-      <h1 className="text-3xl md:text-6xl font-semibold text-text-color">
-        Consumables
-      </h1>
-
-      <div className="w-full flex flex-col md:grid md:grid-cols-2 gap-4">
-        <div className=" p-4 w-full h-96 overflow-hidden relative hover:grayscale">
-          <Image
-            fill
-            src="/images/build.jpg"
-            alt="img"
-            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
-          />
+    <div className="w-full h-full flex flex-col md:grid md:grid-cols-4 gap-4">
+      <div className="col-span-4 flex flex-row items-center justify-between">
+        <div className="flex-row flex items-center gap-2">
+          <div className="flex flex-row items-center gap-2">
+            <h1 className="font-bold text-sm text-color">Filters:</h1>
+            <select className="bg-primary-black border-2 border-faint-gold rounded px-4 py-2 w-40">
+              <option>Default</option>
+              <option>By Price</option>
+              <option>New</option>
+            </select>
+          </div>
         </div>
-        <div className=" p-4 w-full h-96 flex flex-col items-center justify-center">
-          <p className="text-xs md:text-sm text-text-color">
-            Shop fitting works, General Repairs and maintenance, Painting,
-            Carpentry, Glazing, Plumbing, Electrical, maintenance and
-            installations, Waterproofing, Tiling, Flooring, Civil works, Water
-            and sewer reticulation, Steel works
-          </p>
+        <div className="flex-row flex items-center gap-2">
+          <div className="hidden md:flex flex-row items-center gap-2">
+            <Input placeholder="search for product" />
+            <button className="flex py-2 h-11 px-6 bg-primary-yellow text-white text-base hover:bg-primary-black font-bold">
+              Search
+            </button>
+          </div>
+          <div className="md:hidden flex flex-row items-center bg-primary-yellow p-4 rounded hover:bg-primary-black">
+            <BsSearch />
+          </div>
         </div>
       </div>
+      {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((product, i) => (
+        <ProductCard key={i} />
+      ))}
     </div>
   );
 };

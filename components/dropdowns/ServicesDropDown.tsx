@@ -8,7 +8,7 @@ export default function ServicesDropDownMenu() {
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger>
-        <button className="text-white hover:text-primary-yellow hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
+        <button className="text-primary-black hover:text-primary-yellow hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
           SERVICES
         </button>
       </DropdownMenu.Trigger>
