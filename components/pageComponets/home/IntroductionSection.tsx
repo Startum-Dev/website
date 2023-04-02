@@ -33,11 +33,11 @@ const IntroductionSection = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center gap-4 ">
-          <h1 className="text-sx font-bold text-text-color">ABOUT US</h1>
-          <h1 className="text-3xl md:text-6xl font-semibold text-text-color">
+          <h1 className="text-sx font-bold text-primary-yellow">ABOUT US</h1>
+          <h1 className="text-3xl md:text-6xl font-semibold text-primary-black">
             Chaînes Lloyd Incorporated
           </h1>
-          <p className="text-xs md:text-sm text-text-color">
+          <p className="text-xs md:text-sm text-primary-black">
             Chaînes Lloyd Incorporated is a diversified and integrating company
             which ventures in several sectors mainly Mining, Manufacturing,
             Construction, Real Estate, Energy & Petroleum, Medical & Healthcare
@@ -51,7 +51,7 @@ const IntroductionSection = () => {
           </p>
           <div className="flex">
             <Link href="/about-us">
-              <button className="flex py-2 px-6 bg-primary-yellow text-white text-base font-bold hover:bg-primary-black">
+              <button className="flex py-2 px-6 bg-primary-black text-white text-base font-bold hover:bg-primary-yellow">
                 Know More
               </button>
             </Link>

@@ -4,7 +4,7 @@ import BlogPost from "../../cards/BlogPost";
 const OurBlog = () => {
   return (
     <div className="py-12 flex flex-col items-center justify-center">
-      <h1 className="text-3xl md:text-6xl font-semibold text-text-color mb-8">
+      <h1 className="text-3xl md:text-6xl font-semibold text-primary-black mb-8">
         Our Blog
       </h1>
       <div className="flex flex-col md:grid md:grid-cols-4 gap-4">

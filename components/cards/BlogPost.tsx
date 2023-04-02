@@ -9,11 +9,11 @@ const BlogPost = () => {
       </div>
       <div className="flex flex-col gap-2">
         <div className="flex flex-row items-center justify-between">
-          <h5 className="font-bold text-text-color">Lates News</h5>
-          <p className="text-sm text-text-color">05/03/2023</p>
+          <h5 className="font-bold text-primary-black">Lates News</h5>
+          <p className="text-sm text-primary-black">05/03/2023</p>
         </div>
         <div className="flex flex-col ">
-          <p className="text-text-color">
+          <p className="text-primary-black">
             consectetur adipiscing elit, sed do eiusmod tempor incididunt
             eiusmod tempor incididun consectetur...
           </p>

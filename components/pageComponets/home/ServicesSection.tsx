@@ -7,10 +7,10 @@ const ServicesSection = () => {
       className="bg-primary-black  items-center jutsif-center flex flex-col w-screen md:px-64 py-24 gap-4 md:gap-8 px-4"
       id="services"
     >
-      <h1 className="text-3xl md:text-6xl font-semibold text-text-color">
+      <h1 className="text-3xl md:text-6xl font-semibold text-white">
         Our Services
       </h1>
-      <p className="text-sx font-semibold text-text-color -mt-6">
+      <p className="text-sx font-semibold text-white -mt-6">
         we are diversified into seven major industries
       </p>
       <div className="hidden  md:flex md:flex-row md:items-center md:justify-cencter gap-1 md:gap-4">
