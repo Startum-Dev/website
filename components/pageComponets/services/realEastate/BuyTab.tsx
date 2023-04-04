@@ -8,10 +8,10 @@ import BuyPropertyFAQ from "./buyTabComponets/BuyPropertyFAQ";
 const BuyTab = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center py-8 gap-16">
-      <h1 className="text-3xl md:text-6xl font-semibold text-text-color">
+      <h1 className="text-3xl md:text-6xl font-semibold text-primary-black">
         Buy property
       </h1>
-      <p className="text-xs md:text-sm text-text-color text-center">
+      <p className="text-xs md:text-sm text-primary-black text-center">
         Ready to fall in love with your dream home? Chaînes Lloyd Real Eastate
         boasts a large array of property for sale across the nation. From
         commercial property to vacant land, developments, farms and residential
@@ -23,14 +23,14 @@ const BuyTab = () => {
         property search with us today.
       </p>
       <div className="flex md:w-2/3 flex-col gap-4">
-        <h1 className="text-xl md:text-2xl font-semibold text-text-color">
+        <h1 className="text-xl md:text-2xl font-semibold text-primary-black">
           Find your dream property
         </h1>
         <RealEstateSearchbar />
       </div>
       <div className="w-screen p-8 bg-primary-black flex flex-col items-center gap-8 justify-center">
         <div className="flex flex-row items-center justify-center">
-          <h1 className="text-xl md:text-4xl font-semibold text-text-color">
+          <h1 className="text-xl md:text-4xl font-semibold text-primary-black">
             Choose your ideal style of living
           </h1>
         </div>

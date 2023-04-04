@@ -1,7 +1,4 @@
 import AppLayout from "../components/layouts/AppLayout";
-import BannerSmall from "../components/pageComponets/shared/BannerSmall";
-import BlogPost from "../components/cards/BlogPost";
-import Input from "../components/inputs/Input";
 import RealEastateBanner from "../components/pageComponets/services/realEastate/shared/RealEstateBanner";
 import RentTab from "../components/pageComponets/services/realEastate/RentTab";
 import BuyTab from "../components/pageComponets/services/realEastate/BuyTab";
