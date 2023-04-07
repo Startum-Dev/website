@@ -11,7 +11,7 @@ const RealEstateSearchbar = () => {
         <div className="md:col-span-4">
           <Input placeholder="Property Type" />
         </div>
-        <div className="flex flex-row items-center justify-center bg-background-black  rounded hover:shadow hover:bg-primary-black">
+        <div className="flex flex-row items-center justify-center bg-primary-yellow rounded hover:shadow hover:bg-white hover:text-primary-black">
           <button>Search</button>
         </div>
       </div>

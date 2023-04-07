@@ -9,7 +9,7 @@ export default function ServicesDropDownMenu() {
     <DropdownMenu.Root>
       <DropdownMenu.Trigger>
         <button className="text-primary-black hover:text-primary-yellow hover:underline hover:underline-offset-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-sm font-bold">
-          SERVICES
+          CATEGORIES
         </button>
       </DropdownMenu.Trigger>
       <DropdownMenu.Portal>
@@ -21,7 +21,7 @@ export default function ServicesDropDownMenu() {
           <DropdownMenu.Item className="text-sm font-semibold flex gap-2 items-center justify-start p-2 ">
             <Link href="/real-eastate">
               <text className="text-text-color hover:text-primary-yellow text-lg font-semibold">
-                REAL EASTATE
+                REAL ESTATE
               </text>
             </Link>
           </DropdownMenu.Item>

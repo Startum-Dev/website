@@ -39,9 +39,13 @@ const BuyTab = () => {
             <div className="w-full h-full relative">
               <Image src="/images/imba.jpg" fill alt="image" />
             </div>
-            <div className="flex flex-row items-center justify-center py-4">
-              <h2 className="text-text-color  font-bold">Residential Houses</h2>
-            </div>
+            <Link href="/realEastate/residential">
+              <div className="flex flex-row items-center justify-center py-4">
+                <h2 className="text-text-color  font-bold">
+                  Residential Houses
+                </h2>
+              </div>
+            </Link>
           </div>
           <div className="flex flex-col bg-background-black shadow rounded p-2 h-96 w-96">
             <div className="w-full h-full relative">
